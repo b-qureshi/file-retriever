@@ -23,5 +23,5 @@ def file_mover(parent, dest, Type):
 srcPath = input("Source Path: ")
 destPath = input("Destination Path: ")
 fileType = input("File type: ")
-fileMover(srcPath, destPath, fileType)
+file_mover(srcPath, destPath, fileType)
 print("\n Done")
